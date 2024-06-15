@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align: center; margin-top: 8rem; ">
+    <br>
+    <h1> ---------------THE GAME READED YOUR MIND THE WORD YOU THOUGHT OF WAS-------------</h1>
+    <br>
+    <br>
+    <h1 id="finalWord"></h1>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+    let finalWord = localStorage.getItem('word');
+    let fword = document.querySelector("#finalWord");
+       
+    if (finalWord) {
+        //alert(finalWord);
+        fword.innerHTML=`${finalWord}`;
+       
+        localStorage.removeItem('word');
+   } //else {
+        //alert('No final word found in localStorage');
+  // }
+});
+    </script>
+</body>
+</html>
