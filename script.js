@@ -1,3 +1,5 @@
+let tab = document.querySelectorAll("table");
+
 let text1=document.querySelector("#text1");
 let clk=0;
 
@@ -15,6 +17,7 @@ let final=document.querySelector("#final");
 let count=0;
 // A EVENT HANDLLER
 a.addEventListener("click",()=>{
+  tab[0].style.backgroundColor = " rgb(161, 235, 222)";
   clk++;
   if(clk==n){
     window.location.href = "forth.html";
@@ -113,6 +116,7 @@ a.addEventListener("click",()=>{
 // B EVENT HANDLLER
 
 b.addEventListener("click",()=>{
+  tab[1].style.backgroundColor = " rgb(161, 235, 222)";
   clk++;
   if(clk==n){
     window.location.href = "forth.html";
@@ -209,6 +213,7 @@ b.addEventListener("click",()=>{
 });
  // C EVENT HANDLER
 c.addEventListener("click",()=>{
+  tab[2].style.backgroundColor = " rgb(161, 235, 222)";
   clk++;
   if(clk==n){
     window.location.href = "forth.html";
@@ -305,6 +310,7 @@ c.addEventListener("click",()=>{
 });
  // D EVENT HANDLLER
 d.addEventListener("click",()=>{
+  tab[3].style.backgroundColor = " rgb(161, 235, 222)";
   clk++;
   if(clk==n){
     window.location.href = "forth.html";
@@ -401,6 +407,7 @@ d.addEventListener("click",()=>{
 });
 //E EVENT HANDLLER
 e.addEventListener("click",()=>{
+  tab[4].style.backgroundColor = " rgb(161, 235, 222)";
   clk++;
   if(clk==n){
     window.location.href = "forth.html";
@@ -497,6 +504,7 @@ e.addEventListener("click",()=>{
 });
 // F EVENT HANDLLER
 f.addEventListener("click",()=>{
+  tab[5].style.backgroundColor = " rgb(161, 235, 222)";
   clk++;
   if(clk==n){
     window.location.href = "forth.html";
@@ -595,6 +603,7 @@ f.addEventListener("click",()=>{
 // G EVENT HANDLLER
 
 g.addEventListener("click",()=>{
+  tab[6].style.backgroundColor = " rgb(161, 235, 222)";
   clk++;
   if(clk==n){
     window.location.href = "forth.html";
