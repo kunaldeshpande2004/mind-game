@@ -1,2 +1,3 @@
 # mind-game
-this is a game that can tell about the word you are thinking of
+this is a game that can tell about the word you are thinking of...
+This is a game whose algorithm is designed such that it can guess the word you have thinked of in your mind with 100% acurracy it is actually just a fun game that works on the pattern of rearrangement of letters of the the alphabets based on the inputs given by the user without actually telling the word  this game first asks you to think of a word and then enter the number of letter that word consist of and then forms a table consisting of english alphabets and ask you to select the coloum in which the letter of the word you thing of is present based on your inputs and rearrangement pattern it perfectly picks the letter out of all other letter from the table that makes up to the word you are thinking of and displays the word in front of you in the last
